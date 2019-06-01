@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    /* background: linear-gradient(white, rgb(204, 255, 255)); */
+    font-family: "Josefin Sans", arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.9;
+    color: #6c757d;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: green;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.banner {
+    background: teal;
+    padding: 12px 0;
+    position: relative;
+}
+
+banner.weather {
+    align-items: flex-end;
+}
+
+.weather h3 {
+    color: black;
+    position: fixed;
+    bottom: 12px;
+    left: 10px;
+}
+
+.weather canvas {
+    position: fixed;
+    bottom: 20px;
+    left: 130px;
+}
+
+.degree-section {
+    position: fixed;
+    bottom:5px;
+    left: 170px;
+    color:black;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span {
+    position: absolute;
+    top:7px;
+    left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.temperature-description {
+    position: absolute;
+    top: 15px;
+    left: 630px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.connection {
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.chart-text {
+    color: black;
+    text-align: center;
+}
+
+.power {
+    width: 100%;
+}
+
+.small-chart {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.small-chart h2 {
+    width: 100%;
+    text-align: center;
+}

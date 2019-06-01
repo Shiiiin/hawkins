@@ -1,0 +1,7 @@
+ACCOUNT_SID = "ACaa1b492ce6e63e275385d16e0cbe2141"
+AUTH_TOKEN = "4ba85d08310eea95cb3149b3b89ce5be"
+TO = "+821092918393"
+FROM = "+18632043872"
+PUB_KEY = "pub-c-14903de5-7185-4c6e-96d9-04cde24b588d"
+SUB_KEY = "sub-c-8f5f0910-5896-11e9-a239-aa8227b65335"
+my_gmail_password = 'ummbdsudzwpffzck'

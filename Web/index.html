@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css"> -->
+    <!-- <script src="main.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300, 400,700" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+
+    <script type="text/javascript" src="https://pubnub.github.io/eon/v/eon/1.0.0/eon.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://pubnub.github.io/eon/v/eon/1.0.0/eon.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <header class="banner">
+            <div class="weather">
+                <span class="connection">Connection : <span id="connection_id"></span></span>
+                <h3 class="location-timezone">Timezone</h1>
+                <canvas id="icon" width="30" height="30"></canvas>
+
+                <div class="temperature-section">
+                    <div class="degree-section">
+                        <h2 class="temperature-degree"></h2>
+                        <span>C</span>
+                    </div>
+                    <!-- <div class="temperature-description">Its cold</div> -->
+                </div>
+            </div>
+        </header>
+
+        <h2 class="chart-text"><a href="index.html">Charts</a></h2>
+
+        <div class="power">
+            <div id="power_chart"></div>
+        </div>
+
+        <div class="small-chart">
+            <div id="voltage_chart"></div>
+            <h2>voltage</h2>
+        </div>
+
+        <div class="small-chart">
+            <div id="current_chart"></div>
+            <h2>current</h2>
+        </div>
+
+        <div class="clr"></div>
+
+
+        <div class="">
+            <div class="location">
+                <!-- <h3 class="location-timezone">Timezone</h1> -->
+            </div>
+            
+            <!-- <canvas id="icon" width="128" height="128"></canvas> -->
+            
+            <!-- <div class="temperature-section">
+                <div class="degree-section">
+                    <h2 class="temperature-degree">24</h2>
+                    <span>F</span>
+                </div>
+                <div class="temperature-description">Its cold</div>
+            </div> -->
+        </div>
+
+        </br></br></br></br></br>
+    </div>
+
+    <footer class="footer"></footer>
+
+    <script src="js/skycons.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/chart.js"></script>
+</body>
+</html>
